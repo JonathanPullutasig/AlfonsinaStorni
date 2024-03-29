@@ -97,7 +97,7 @@ section {
      justify-content: center;
      position: relative;
 }
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     .slide {
         min-height: 30vh;
     }
