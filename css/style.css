@@ -97,7 +97,17 @@ section {
      justify-content: center;
      position: relative;
 }
+@media (max-width: 767px) {
+    .slide {
+        min-height: 30vh;
+    }
+    
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+}
 .slide1 {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/11.jpg);
     background-size: cover;
